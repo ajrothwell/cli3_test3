@@ -8,10 +8,11 @@
     "dev-build": "vue-cli-service build --mode development"
   },
   "dependencies": {
+    "@cityofphiladelphia/mapboard": "https://github.com/CityOfPhiladelphia/mapboard#49add4a830525799aa28d7e66c3a2f9d5e4e32e8",
+    "@fortawesome/vue-fontawesome": "^0.1.5",
     "vue": "^2.5.22"
   },
   "devDependencies": {
-    "@cityofphiladelphia/mapboard": "https://github.com/CityOfPhiladelphia/mapboard#904018d52a46d66f675a256ee165198d4a5f2292",
     "@vue/cli-plugin-babel": "^3.0.5",
     "@vue/cli-service": "^3.0.5",
     "vue-template-compiler": "^2.5.21"
