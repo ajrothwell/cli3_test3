@@ -4,12 +4,14 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "dev-build": "vue-cli-service build --mode development"
   },
   "dependencies": {
     "vue": "^2.5.22"
   },
   "devDependencies": {
+    "@cityofphiladelphia/mapboard": "https://github.com/CityOfPhiladelphia/mapboard#904018d52a46d66f675a256ee165198d4a5f2292",
     "@vue/cli-plugin-babel": "^3.0.5",
     "@vue/cli-service": "^3.0.5",
     "vue-template-compiler": "^2.5.21"
